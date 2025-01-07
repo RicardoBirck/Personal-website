@@ -1,0 +1,38 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    text-align: center;
+}
+
+.section-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-container{
+    border: 2px solid black;
+    padding: 25px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.card-title{
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.card-p{
+    background-color: white;
+}
+
+.card-button{
+    background-color: white;
+}
+
+.line{
+    margin: 20px;
+}
