@@ -1,6 +1,10 @@
 #navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.line{
+    margin: 20px;
 }
 
 .title {
@@ -12,27 +16,45 @@
     justify-content: space-around;
 }
 
-.div-container{
-    border: 2px solid black;
-    padding: 25px;
-    height: 100px;
-    width: 100px;
+.outer-container{
+    height: 450px;
+    width: 235px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+
+.lower-container{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    flex-grow: 1;
 }
 
 .card-title{
-    margin-top: -10px;
+    text-align: center;
     font-size: 15px;
 }
 
-.card-p{
-    background-color: white;
+.card-list{
+    margin-top: -20px;
 }
 
 .card-button{
     background-color: white;
+    width: 50%;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 15px;
 }
 
-.line{
-    margin: 20px;
+#teachingImg{
+    height: 250px;
+    width: 235px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
