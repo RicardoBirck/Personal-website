@@ -1,7 +1,14 @@
-#navbar {
+#ulContainer{
     display: flex;
     justify-content: space-around;
 }
+
+#navbarContainer{
+    border: 5px solid green;
+    background-color: lightgrey;
+}
+
+
 
 .line{
     margin: 20px;
@@ -89,3 +96,24 @@
 #ed-section{
     justify-content: center;
 }
+
+#div-container{
+    display: flex;
+    justify-content: flex-end;
+    
+ 
+}
+
+#headerImg{
+    height: 300px;
+    width: 300px;
+    margin-right: 80px;
+    border: 10px solid green;
+    border-radius: 10px;
+
+}
+
+#objectivismButton{
+    color: blue;
+}
+

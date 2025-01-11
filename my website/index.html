@@ -8,23 +8,37 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul id="navbar">
+        <nav id="navbarContainer">
+            <ul id="ulContainer">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">Essentialize</a></li>
                 <li><a href="#services">Objectivism</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li ><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+
+        <br>
+
         <h1 class="title">Hi, I'm Ricardo!</h1>
-        <p>This is a short introductory paragraph about what you can find on my website.</p>
-        <!-- image of me -->
-        <img src=""> 
-        <button><a href="/my website/pages/essentialize.html">Essentialize</a></button>
-        <button>Objectivism</button>
+        <div id="div-container">
+            <div> 
+                <p>This is my website!</p>
+                <p>You'll find my work experience, education, and some personal trivia.</p>
+                <p>I'm currently building a startup called Essentialize <br> and I also teach Objectivism</p>
+            </div>
+            <img id="headerImg" src="/my website/assets/images/Ricardo_teaching.jpg">
+        </div>
+        
+        <button id="essentializeButton">Essentialize</button>
+        <button id="objectivismButton">Objectivism</button>
+       
     </header>
 
+
+    
     <hr class="line">
+
+    
 
     <h2 class="title">Work</h2>
     <section class="section-container">
@@ -54,10 +68,10 @@
                     <ul class="card-list"></ul>
                         <li>Language learning</li>
                         <li>CEO/Product Owner</li>
-                        <li><a href="https://play.google.com/store/apps/details?id=com.Click.LinguaFranca&hl=pt_BR">Play Store</a></li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.Click.LinguaFranca&hl=pt_BR" target="_blank">Play Store</a></li>
                         <li>2017-2022</li>
                     </ul>
-                    <button class="card-button">See case study</button>
+                    <button class="card-button" id="linguafrancaWebsiteButton">See case study</button>
                 </div>
         </div>
 
@@ -71,11 +85,11 @@
                     <ul class="card-list"></ul>
                         <li>Fitness & Nutrition</li>
                         <li>Product Owner</li>
-                        <li><a href="https://play.google.com/store/apps/details?id=com.bodylovegroupllc.bodylove&hl=en">Play Store</a> 
-                            + <a href="https://apps.apple.com/us/app/bodylura-fitness-nutrition/id1281856473">App Store</a></li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.bodylovegroupllc.bodylove&hl=en" target="_blank">Play Store</a> 
+                            + <a href="https://apps.apple.com/us/app/bodylura-fitness-nutrition/id1281856473" target="_blank">App Store</a></li>
                         <li>2023-2024</li>
                     </ul>
-                    <button class="card-button">See case study</button>
+                    <button class="card-button" id="fitbodyWebsiteButton">See case study</button>
                 </div>
         </div>
        
@@ -93,7 +107,7 @@
                         <li>Fiction & nonfiction</li>
                         <li>2022-present</li>
                     </ul>
-                    <button class="card-button">Learn more</button>
+                    <button class="card-button" id="objectivismButton2">Learn more</button>
                 </div>
         </div>
 
@@ -107,11 +121,11 @@
                     <ul class="card-list"></ul>
                         <li>Productivity & Wellness</li>
                         <li>CEO/Product Owner</li>
-                        <li><a href="https://play.google.com/store/apps/details?id=com.essentialize.app&hl=en">Play Store</a> 
-                            + <a href="https://apps.apple.com/us/app/essentialize/id6737056254">App Store</a></li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.essentialize.app&hl=en" target="_blank">Play Store</a> 
+                            + <a href="https://apps.apple.com/us/app/essentialize/id6737056254" target="_blank">App Store</a></li>
                         <li>2024-present</li>
                     </ul>
-                    <button class="card-button">Learn more</button>
+                    <button class="card-button" id="essentializeButton2">Learn more</button>
                 </div>
         </div>
 
@@ -208,14 +222,9 @@
 
     <hr class="line">
 
-    <footer>
-        <p>Contact us at: info@mywebsite.com</p>
-        <ul>
-            <li><a href="https://www.facebook.com/mywebsite">Facebook</a></li>
-            <li><a href="https://twitter.com/mywebsite">Twitter</a></li>
-            <li><a href="https://www.linkedin.com/company/mywebsite">LinkedIn</a></li>
-        </ul>
 
-    </footer>
+
+    
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
