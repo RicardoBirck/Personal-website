@@ -117,3 +117,7 @@
     color: blue;
 }
 
+#contactForm{
+    display: flex;
+    flex-direction: column;
+}
