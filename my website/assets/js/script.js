@@ -1,3 +1,12 @@
+import { renderFooter } from '../../partials/footer.js';
+
+document.addEventListener('DOMContentLoaded', () => {
+  const footerElement = document.getElementById('footer');
+  footerElement.innerHTML = renderFooter();  
+});
+
+
+
 const fitbodyButton = document.getElementById("fitbodyWebsiteButton");
 
 fitbodyButton.addEventListener("click", function() {
