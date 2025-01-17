@@ -8,14 +8,7 @@
 </head>
 <body>
     <header>
-        <nav id="navbarContainer">
-            <ul id="ulContainer">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/essentialize.html">Essentialize</a></li>
-                <li><a href="pages/objectivism.html">Objectivism</a></li>
-                <li ><a href="pages/contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div id="nav"></div>
 
         <br>
 
@@ -208,7 +201,14 @@
         </div>
         <div>
             <h3>Dunking</h3>
-            <!--video of me dunking -->
+
+            <div id="videoContainer">
+                <video id="video" muted>
+                  <source src="/my website/assets/videos/dunking.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+
         </div>
         <div>
             <h3>Half-marathon</h3>
@@ -226,6 +226,7 @@
     <div id="footer"></div>
 
     <script type="module" src="assets/js/script.js"></script>
+    
     
 
 </body>

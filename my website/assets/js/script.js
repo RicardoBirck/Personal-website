@@ -5,6 +5,30 @@ document.addEventListener('DOMContentLoaded', () => {
   footerElement.innerHTML = renderFooter();  
 });
 
+import { renderNav } from '../../partials/nav.js';
+
+document.addEventListener('DOMContentLoaded', () => {
+  const footerElement = document.getElementById('nav');
+  footerElement.innerHTML = renderNav();  
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const video = document.getElementById("video");
+  const videoContainer = document.getElementById("videoContainer");
+
+  // Add event listener to play/pause the video when clicked
+  videoContainer.addEventListener("click", function() {
+    if (video.paused) {
+      video.play(); // Play the video if it is paused
+    } else {
+      video.pause(); // Pause the video if it is already playing
+    }
+  });
+});
+
+
+
 
 
 const fitbodyButton = document.getElementById("fitbodyWebsiteButton");
